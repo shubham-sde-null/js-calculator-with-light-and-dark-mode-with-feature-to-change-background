@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    /* width: 100%;
+    height: 100%; */
+    font-family: "Poppins";
+    /* background-color: aqua;
+    background: url("./img/calc1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid black; */
+}
+
+
+/* Utility classes  START    */
+
+.text-center {
+    text-align: center;
+}
+
+
+/* .bg-red { */
+
+
+/* background-color: red; */
+
+
+/* } */
+
+.mx-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Utility classes  END    */
+
+.button {
+    padding: 20px;
+    margin: 0 3px;
+    border-radius: 9px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.row {
+    margin: 6px 0;
+}
+
+.row input {
+    font-size: 18.5px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(39, 201, 234);
+}
+
+.calc-container {
+    border: 1px solid rgb(0, 0, 0);
+    /* box-shadow: 1px 1px 10px 2px rgba(255, 255, 255, 0.457); */
+    height: 75%;
+    width: 22%;
+    margin: auto;
+    padding-top: 32px;
+    margin-top: 5rem;
+    background-color: rgb(255, 253, 253);
+    border-radius: 15px;
+}
+
+#body-back {
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+    /* background-color: rebeccapurple; */
+    background: url("./img/calc1.jpg");
+    /* background-size: cover; */
+    /* background-position: center; */
+}
+
+#user-btn {
+    position: absolute;
+    border: 1px solid rgb(255, 247, 247);
+    top: 70px;
+    left: 1000px;
+    width: fit-content;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#user-btn:hover {
+    background-color: rgb(253, 250, 250);
+    color: black;
+}
